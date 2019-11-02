@@ -1,21 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.samuraispirits2019framedata">
-    <uses-sdk android:minSdkVersion="24"
-        android:targetSdkVersion="29">
-    </uses-sdk>
-
-
-    <application
-        android:allowBackup="true"
-        android:icon="@drawable/icon"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
-        android:theme="@style/AppTheme"
-        tools:ignore="GoogleAppIndexingWarning">
-<!--        <activity android:name=".MainActivity">-->
+    package="android.wings.websarva.samuraispirits2019_capture">
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <!-- スプラッシュ画像用のアクティビティ -->
         <activity
             android:name=".SplashActivity"
             android:configChanges="orientation|screenSize"
@@ -23,10 +10,14 @@
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"></activity>
+        <!-- スプラッシュ後のアクティビティ -->
+        <activity android:name=".MainActivity">
+
+        </activity>
     </application>
 
 </manifest>
