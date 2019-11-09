@@ -18,6 +18,10 @@
         <activity android:name=".MainActivity">
 
         </activity>
+        <activity
+            android:name=".CharacterIntroduction"
+            android:label="@string/app_name" >
+        </activity>
     </application>
 
 </manifest>

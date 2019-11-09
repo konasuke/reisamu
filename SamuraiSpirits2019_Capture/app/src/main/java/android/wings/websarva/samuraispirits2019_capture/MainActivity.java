@@ -1,6 +1,8 @@
 package android.wings.websarva.samuraispirits2019_capture;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,11 +10,10 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.ListView;
-import android.widget.Toast;
 
-public class MainActivity extends Activity {
+public class MainActivity extends Activity implements AdapterView.OnItemClickListener {
 
-    private static final String[] names = {
+    private static final String[] scenes  = {
             "chara01",
             "chara02",
             "chara03",
@@ -44,30 +45,37 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //インテントオブジェクトを取得。
-        Intent intent = getIntent();
-        //ListViewオブジェクトを取得。
-        ListView listView = findViewById(R.id.listView);
+        // ListViewのインスタンスを生成
+        ListView listView = findViewById(R.id.listview);
 
-        BaseAdapter adapter = new TestAdapter(this.getApplicationContext(),
-                R.layout.list_items, photos);
+        // BaseAdapter を継承したadapterのインスタンスを生成
+        // レイアウトファイル list.xml を activity_main.xml に
+        // inflate するためにadapterに引数として渡す
+        BaseAdapter adapter = new ListViewAdapter(this.getApplicationContext(),
+                R.layout.inflaterlist, scenes, photos);
 
         // ListViewにadapterをセット
         listView.setAdapter(adapter);
+
+        // クリックリスナーをセット
+        listView.setOnItemClickListener(this);
     }
     /**
      * リストがタップされたときの処理が記述されたメンバクラス。
      */
-    private class ListItemClickListener implements AdapterView.OnItemClickListener {
+    @Override
+    public void onItemClick(AdapterView<?> parent, View v,
+                            int position, long id) {
 
-        @Override
-        public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-            //タップされた定食名を取得。
-            String item = (String) parent.getItemAtPosition(position);
-            //トーストで表示する文字列を生成。
-            String show = "あなたが選んだ定食: " + item;
-            //トーストの表示。
-            Toast.makeText(MainActivity.this, show, Toast.LENGTH_LONG).show();
-        }
+        Intent intent = new Intent(
+                this.getApplicationContext(), CharacterIntroduction.class);
+
+        // clickされたposition，photoのID
+        int selectedPhoto = photos[position];
+        // インテントにセット
+        intent.putExtra("Photo", selectedPhoto);
+
+        // SubActivityへ遷移
+        startActivity(intent);
     }
 }
