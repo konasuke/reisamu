@@ -16,9 +16,11 @@
         android:adjustViewBounds="true"
         android:cropToPadding="false"
         android:scaleType="fitXY"/>
-<ListView
-    android:id="@+id/lvMenu"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:entries="@array/lv_menu"/>
+
+    <ListView
+        android:id="@+id/listView"
+        android:divider="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
 </LinearLayout>
