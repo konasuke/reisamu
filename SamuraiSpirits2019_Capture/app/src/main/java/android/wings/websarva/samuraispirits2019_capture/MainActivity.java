@@ -14,16 +14,16 @@ import android.widget.ListView;
 public class MainActivity extends Activity implements AdapterView.OnItemClickListener {
 
     private static final String[] scenes  = {
-            "chara01",
-            "chara02",
-            "chara03",
-            "chara04",
-            "chara05",
-            "chara06",
-            "chara07",
-            "chara08",
-            "chara09",
-            "chara10"
+            "HAOHMARU",
+            "NAKORURU",
+            "HATTORIHANZO",
+            "GALFORD",
+            "TACHIBANAUKYO",
+            "SENRYOKYOSHIRO",
+            "YAGYUJUBEI",
+            "TAMTAM",
+            "CHARLOTTE",
+            "KIBAGAMI_GENJURO"
     };
 
     // drawableに画像を入れる、R.id.xxx はint型
