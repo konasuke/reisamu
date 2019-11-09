@@ -77,7 +77,7 @@ public class MainActivity extends Activity implements AdapterView.OnItemClickLis
         intent.putExtra("Text", selectedText);
         intent.putExtra("Photo", selectedPhoto);
 
-        // SubActivityへ遷移
+        // CharacterIntroductionへ遷移
         startActivity(intent);
     }
 }
