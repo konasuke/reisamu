@@ -13,10 +13,12 @@ public class CharacterIntroduction extends Activity {
         setContentView(R.layout.character_introduction);
 
         Intent intent = getIntent();
-        // MainActivityからintentで受け取ったものを取り出す
+        String selectedText = intent.getStringExtra("Text");
         int selectedPhoto = intent.getIntExtra("Photo", 0);
 
-        ImageView imageView = findViewById(R.id.selected_photo);
+        TextView textView = findViewById(R.id.selected_text);
+        textView.setText(selectedText);
+        ImageView  imageView = findViewById(R.id.selected_photo);
         imageView.setImageResource(selectedPhoto);
     }
 }

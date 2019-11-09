@@ -70,9 +70,11 @@ public class MainActivity extends Activity implements AdapterView.OnItemClickLis
         Intent intent = new Intent(
                 this.getApplicationContext(), CharacterIntroduction.class);
 
-        // clickされたposition，photoのID
+        // clickされたpositionのtextとphotoのID
+        String selectedText = scenes[position];
         int selectedPhoto = photos[position];
         // インテントにセット
+        intent.putExtra("Text", selectedText);
         intent.putExtra("Photo", selectedPhoto);
 
         // SubActivityへ遷移
