@@ -3,11 +3,13 @@ package android.wings.websarva.samuraispirits2019_capture;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class CharacterIntroduction extends Activity {
+public class CharacterIntroduction extends Activity implements AdapterView.OnClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,5 +33,21 @@ public class CharacterIntroduction extends Activity {
 
         Button backButton = findViewById(R.id.backButton);
         backButton.setText("戻る");
+
+        commandListButton.setOnClickListener(this);
+    }
+
+    public void onClick(View v) {
+        switch(v.getId()){
+            case R.id.commandListButton:
+                Intent intent = new Intent(
+                        this.getApplicationContext(), CommandList.class);
+                startActivity(intent);
+                break;
+            case R.id.memoButton:
+                break;
+            case R.id.backButton:
+                break;
+        }
     }
 }
