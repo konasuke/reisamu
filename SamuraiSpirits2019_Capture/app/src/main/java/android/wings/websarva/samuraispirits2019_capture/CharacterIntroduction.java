@@ -35,18 +35,21 @@ public class CharacterIntroduction extends Activity implements AdapterView.OnCli
         backButton.setText("戻る");
 
         commandListButton.setOnClickListener(this);
+        backButton.setOnClickListener(this);
     }
 
     public void onClick(View v) {
+        Intent intent = null;
         switch(v.getId()){
             case R.id.commandListButton:
-                Intent intent = new Intent(
-                        this.getApplicationContext(), CommandList.class);
+                intent = new Intent(this.getApplicationContext(), CommandList.class);
                 startActivity(intent);
                 break;
             case R.id.memoButton:
                 break;
             case R.id.backButton:
+                intent = new Intent(this.getApplicationContext(), MainActivity.class);
+                startActivity(intent);
                 break;
         }
     }
