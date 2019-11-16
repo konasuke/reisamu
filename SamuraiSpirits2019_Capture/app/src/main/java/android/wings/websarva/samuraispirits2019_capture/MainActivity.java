@@ -1,9 +1,5 @@
 package android.wings.websarva.samuraispirits2019_capture;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.app.AppCompatActivity;
-import android.database.*;
-import android.database.sqlite.*;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -45,8 +41,7 @@ public class MainActivity extends Activity implements AdapterView.OnItemClickLis
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        String dbStr = "data/data/" + getPackageName() + "/SamuraiSpirits.db";
-        SQLiteDatabase db = SQLiteDatabase.openOrCreateDatabase(dbStr,  null );
+
         // ListViewのインスタンスを生成
         ListView listView = findViewById(R.id.listview);
 

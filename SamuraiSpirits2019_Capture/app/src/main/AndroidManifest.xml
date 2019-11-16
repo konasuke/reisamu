@@ -7,7 +7,8 @@
         <activity
             android:name=".SplashActivity"
             android:configChanges="orientation|screenSize"
-            android:label="@string/app_name" >
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -16,14 +17,17 @@
         </activity>
         <!-- スプラッシュ後のアクティビティ -->
         <activity
-            android:name=".MainActivity">
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
 
         </activity>
         <activity
-            android:name=".CharacterIntroduction">
+            android:name=".CharacterIntroduction"
+            android:screenOrientation="portrait">
         </activity>
         <activity
-            android:name=".CommandList">
+            android:name=".CommandList"
+            android:screenOrientation="portrait">
         </activity>
     </application>
 
