@@ -22,6 +22,9 @@
         <activity
             android:name=".CharacterIntroduction">
         </activity>
+        <activity
+            android:name=".CommandList">
+        </activity>
     </application>
 
 </manifest>
