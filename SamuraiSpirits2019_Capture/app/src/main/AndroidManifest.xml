@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="android.wings.websarva.samuraispirits2019_capture">
     <application android:icon="@drawable/icon" android:label="@string/app_name"
-        android:theme="@style/AppTheme">>
+        android:theme="@style/AppTheme">
         <!-- スプラッシュ画像用のアクティビティ -->
         <activity
             android:name=".SplashActivity"
