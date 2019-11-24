@@ -3,4 +3,58 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TableLayout
+        android:id="@+id/tableHead"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/ci_background" >
+
+        <TableRow
+            android:id="@+id/rowHead"
+            android:layout_height="wrap_content"
+            android:background="#FFFF00FF">
+            <TextView
+                android:id="@+id/headSkillName"
+                android:text="技名">
+            </TextView>
+            <TextView
+                android:id="@+id/headCommand"
+                android:text="コマンド">
+            </TextView>
+            <TextView
+                android:id="@+id/headDamage"
+                android:text="Dmg">
+            </TextView>
+            <TextView
+                android:id="@+id/headOccF"
+                android:text="OccF">
+            </TextView>
+            <TextView
+                android:id="@+id/headDefF"
+                android:text="DefF">
+            </TextView>
+            <TextView
+                android:id="@+id/headHitF"
+                android:text="HitF">
+            </TextView>
+        </TableRow>
+    </TableLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:id="@+id/tableBody"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/ci_background">
+
+            <TableRow
+                android:id="@+id/rowBody"
+                android:background="#FFFF00FF"></TableRow>
+        </TableLayout>
+    </ScrollView>
 </LinearLayout>

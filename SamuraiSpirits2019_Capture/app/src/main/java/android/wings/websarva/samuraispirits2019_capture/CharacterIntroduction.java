@@ -2,6 +2,7 @@ package android.wings.websarva.samuraispirits2019_capture;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -23,6 +24,10 @@ public class CharacterIntroduction extends Activity implements AdapterView.OnCli
 //        textView.setText(selectedText);
 //        ImageView  imageView = findViewById(R.id.selected_photo);
 //        imageView.setImageResource(selectedPhoto);
+
+        ImageView imgView = findViewById(R.id.characterImg);
+        // キャラクター画像変更
+        imgView.setImageResource(R.drawable.ci_chara01);
 
         Button commandListButton = findViewById(R.id.commandListButton);
         commandListButton.setText("コマンドリスト");

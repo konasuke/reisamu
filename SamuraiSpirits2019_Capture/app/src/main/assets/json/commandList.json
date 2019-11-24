@@ -1,0 +1,58 @@
+{
+  "01_HAOHMARU" : [
+    {
+      "no": "01",
+      "skillName": "奥義 弧月斬",
+      "command": "623 + LS or MS or HS",
+      "damage": 120,
+      "occ_F": 10,
+      "def_F": 20,
+      "hit_F": 20
+    },
+    {
+      "no": "02",
+      "skillName": "奥義 疾風弧月斬",
+      "command": "[踏み込み]623 + LS or MS or HS",
+      "damage": 120,
+      "occ_F": 10,
+      "def_F": 20,
+      "hit_F": 20
+    },
+    {
+      "no": "03",
+      "skillName": "奥義 旋風烈斬",
+      "command": "236 + LS or MS or HS",
+      "damage": 120,
+      "occ_F": 10,
+      "def_F": 20,
+      "hit_F": 20
+    },
+    {
+      "skillNo": "04",
+      "skillName": "奥偽 旋風烈斬",
+      "command": "236 + K",
+      "damage": 120,
+      "occ_F": 10,
+      "def_F": 20,
+      "hit_F": 20
+    },
+    {
+      "skillNo": "05",
+      "skillName": "奥義 烈震斬",
+      "command": "421 + LS or MS or HS",
+      "damage": 120,
+      "occ_F": 10,
+      "def_F": 20,
+      "hit_F": 20
+    },
+    {
+      "skillNo": "07",
+      "skillName": "酒攻撃",
+      "command": "214 + K",
+      "damage": 120,
+      "occ_F": 10,
+      "def_F": 20,
+      "hit_F": 20
+    }
+  ]
+}

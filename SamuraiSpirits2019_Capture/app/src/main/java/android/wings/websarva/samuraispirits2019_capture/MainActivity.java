@@ -141,7 +141,7 @@ private final String CHARA_NAME = "CHARA_NAME";
     private String getAssetJsonData() {
         String json;
         try {
-            InputStream is = this.getAssets().open("CharaRoster.json");
+            InputStream is = this.getAssets().open("json/CharaRoster.json");
             int size = is.available();
             byte[] buffer = new byte[size];
             is.read(buffer);
