@@ -2,42 +2,52 @@
   "charaList" : [
     {
       "CHARA_NO": "01",
+      "CHARA_IMAGE": "cs_chara01",
       "CHARA_NAME": "HAOHMARU"
     },
     {
       "CHARA_NO": "02",
+      "CHARA_IMAGE": "cs_chara02",
       "CHARA_NAME": "NAKORURU"
     },
     {
       "CHARA_NO": "03",
+      "CHARA_IMAGE": "cs_chara03",
       "CHARA_NAME": "HATTORIHANZO"
     },
     {
       "CHARA_NO": "04",
+      "CHARA_IMAGE": "cs_chara04",
       "CHARA_NAME": "GALFORD"
     },
     {
       "CHARA_NO": "05",
+      "CHARA_IMAGE": "cs_chara05",
       "CHARA_NAME": "TACHIBANAUKYO"
     },
     {
       "CHARA_NO": "06",
+      "CHARA_IMAGE": "cs_chara06",
       "CHARA_NAME": "SENRYOKYOSHIRO"
     },
     {
       "CHARA_NO": "07",
+      "CHARA_IMAGE": "cs_chara07",
       "CHARA_NAME": "YAGYUJUBEI"
     },
     {
       "CHARA_NO": "08",
+      "CHARA_IMAGE": "cs_chara08",
       "CHARA_NAME": "TAMTAM"
     },
     {
       "CHARA_NO": "09",
+      "CHARA_IMAGE": "cs_chara09",
       "CHARA_NAME": "CHARLOTTE"
     },
     {
       "CHARA_NO": "10",
+      "CHARA_IMAGE": "cs_chara10",
       "CHARA_NAME": "KIBAGAMI_GENJURO"
     }
   ]
