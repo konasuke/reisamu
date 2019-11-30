@@ -3,6 +3,7 @@ package android.wings.websarva.samuraispirits2019_capture;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.KeyEvent;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.BaseAdapter;
@@ -69,20 +70,6 @@ public class MainActivity extends Activity implements AdapterView.OnItemClickLis
 private final String CHARA_NO = "CHARA_NO";
 private final String CHARA_NAME = "CHARA_NAME";
 private final String CHARA_IMAGE = "CHARA_IMAGE";
-
-     //drawableに画像を入れる、R.id.xxx はint型
-//    private static final int[] images = {
-//            R.drawable.cs_chara01,
-//            R.drawable.cs_chara02,
-//            R.drawable.cs_chara03,
-//            R.drawable.cs_chara04,
-//            R.drawable.cs_chara05,
-//            R.drawable.cs_chara06,
-//            R.drawable.cs_chara07,
-//            R.drawable.cs_chara08,
-//            R.drawable.cs_chara09,
-//            R.drawable.cs_chara10
-//    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -175,23 +162,21 @@ private final String CHARA_IMAGE = "CHARA_IMAGE";
         setScenes(scenes);
         setImages(images);
     }
-    /**
-     * AssetsのJSONデータ取得処理
-     * @return
-     */
-//    private String getAssetJsonData() {
-//        String json;
-//        try {
-//            InputStream is = this.getAssets().open("json/CharaRoster.json");
-//            int size = is.available();
-//            byte[] buffer = new byte[size];
-//            is.read(buffer);
-//            is.close();
-//            json = new String(buffer, "UTF-8");
-//        } catch (Exception ex) {
-//            ex.printStackTrace();
-//            return null;
-//        }
-//        return json;
-//    }
+
+
+    @Override
+    public boolean dispatchKeyEvent(KeyEvent event) {
+        if (event.getAction()==KeyEvent.ACTION_DOWN) {
+            switch (event.getKeyCode()) {
+                // Backキー押下時の処理
+                case KeyEvent.KEYCODE_BACK:
+                    // ダイアログ表示等の処理を行いたい場合はここに記述
+
+                    // 親クラスのdispatchKeyEvent()を呼び出さずにtrueを返すことで、
+                    // Backキーを無効にする
+                    return true;
+            }
+        }
+        return super.dispatchKeyEvent(event);
+    }
 }

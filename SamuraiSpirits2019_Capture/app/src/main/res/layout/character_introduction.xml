@@ -24,6 +24,7 @@
 
     <Button
         android:id="@+id/commandListButton"
+        android:text="コマンドリスト"
         android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -33,6 +34,7 @@
 
     <Button
         android:id="@+id/memoButton"
+        android:text="メモ"
         android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -42,6 +44,7 @@
 
     <Button
         android:id="@+id/backButton"
+        android:text="@string/back"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"

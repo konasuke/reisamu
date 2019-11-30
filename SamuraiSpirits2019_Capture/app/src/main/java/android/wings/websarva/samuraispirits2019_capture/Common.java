@@ -1,12 +1,8 @@
 package android.wings.websarva.samuraispirits2019_capture;
 
-import android.app.Activity;
 import android.content.Context;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 
 import java.io.InputStream;
-import java.lang.reflect.Field;
 
 
 public class Common {

@@ -1,60 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ci_background">
 
     <TableLayout
         android:id="@+id/tableHead"
         android:layout_width="match_parent"
         android:layout_height="30dp"
-        android:background="@drawable/ci_background" >
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <TableRow
             android:id="@+id/rowHead"
             android:layout_height="wrap_content"
-            android:background="#FFFF00FF">
+            android:background="#FFB04CDE">
+
             <TextView
                 android:id="@+id/headSkillName"
-                android:text="技名">
-            </TextView>
+                android:text="技名"></TextView>
+
             <TextView
                 android:id="@+id/headCommand"
-                android:text="コマンド">
-            </TextView>
+                android:text="コマンド"></TextView>
+
             <TextView
                 android:id="@+id/headDamage"
-                android:text="Dmg">
-            </TextView>
+                android:text="Dmg"></TextView>
+
             <TextView
                 android:id="@+id/headOccF"
-                android:text="OccF">
-            </TextView>
+                android:text="OccF"></TextView>
+
             <TextView
                 android:id="@+id/headDefF"
-                android:text="DefF">
-            </TextView>
+                android:text="DefF"></TextView>
+
             <TextView
                 android:id="@+id/headHitF"
-                android:text="HitF">
-            </TextView>
+                android:text="HitF"></TextView>
         </TableRow>
     </TableLayout>
 
 
     <ScrollView
+        android:id="@+id/scrollView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:scrollbars="vertical"
+        android:scrollbarThumbVertical="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toTopOf="@+id/backButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableHead"
+        app:layout_constraintVertical_bias="0.0">
 
         <TableLayout
             android:id="@+id/tableBody"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="0dp"
-            android:background="@drawable/ci_background">
+            android:layout_marginTop="0dp">
 
             <TableRow
                 android:id="@+id/rowBody"
                 android:background="#FFFF00FF"></TableRow>
         </TableLayout>
     </ScrollView>
-</LinearLayout>
+
+    <Button
+        android:id="@+id/backButton"
+        android:text="@string/back"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

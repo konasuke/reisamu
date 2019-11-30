@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">サムスピ2019 フレームデータ</string>
     <string name="description">pictures</string>
+    <string name="back">戻る</string>
 </resources>
