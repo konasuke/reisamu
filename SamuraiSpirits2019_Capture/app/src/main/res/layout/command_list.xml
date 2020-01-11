@@ -17,7 +17,7 @@
         <TableRow
             android:id="@+id/rowHead"
             android:layout_height="wrap_content"
-            android:background="#FFB04CDE">
+            android:background="#FF434343">
 
             <TextView
                 android:id="@+id/headSkillName"

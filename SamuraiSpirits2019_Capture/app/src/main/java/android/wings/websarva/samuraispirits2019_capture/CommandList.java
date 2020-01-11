@@ -33,6 +33,7 @@ public class CommandList  extends Activity implements View.OnClickListener {
         Intent intent = getIntent();
         String charNo = intent.getStringExtra("chaNo");
         this.charNo = charNo;
+        boolean headFlg = true;
 
         // テーブルレイアウトを生成
 //        TableLayout tableLayout = new TableLayout(this);
@@ -45,14 +46,14 @@ public class CommandList  extends Activity implements View.OnClickListener {
         TextView headOccF = findViewById(R.id.headOccF);
         TextView headDefF = findViewById(R.id.headDefF);
         TextView headHitF = findViewById(R.id.headHitF);
-        textViewSetting(headSkillName);
+        textViewSetting(headSkillName, headFlg);
         headSkillName.setWidth(Common.calcPxToDp(this,120));
-        textViewSetting(headCommand);
+        textViewSetting(headCommand, headFlg);
         headCommand.setWidth(Common.calcPxToDp(this,120));
-        textViewSetting(headDamage);
-        textViewSetting(headOccF);
-        textViewSetting(headDefF);
-        textViewSetting(headHitF);
+        textViewSetting(headDamage, headFlg);
+        textViewSetting(headOccF, headFlg);
+        textViewSetting(headDefF, headFlg);
+        textViewSetting(headHitF, headFlg);
 
         TableLayout tableBody = findViewById(R.id.tableBody);
         // 行を生成
@@ -88,6 +89,7 @@ public class CommandList  extends Activity implements View.OnClickListener {
 //        String jsonStr = getAssetJsonData();
         Common util = new Common();
         String jsonStr = util.getAssetJsonData(this, "json/commandList.json");
+        boolean headFlg = false;
 
         JSONObject json = null;
         JSONArray jsonArr = null;
@@ -115,40 +117,40 @@ public class CommandList  extends Activity implements View.OnClickListener {
 
                     // skillName
                     TextView txtSkill = new TextView(this);
-                    textViewSetting(txtSkill);
+                    textViewSetting(txtSkill, headFlg);
                     txtSkill.setText(data.getString(JSON_SKILL_NAME));
                     txtSkill.setWidth(Common.calcPxToDp(this, 120));
                     row.addView(txtSkill);
 
                     // command
                     TextView txtCommand = new TextView(this);
-                    textViewSetting(txtCommand);
+                    textViewSetting(txtCommand, headFlg);
                     txtCommand.setText(data.getString(JSON_COMMAND));
                     txtCommand.setWidth(Common.calcPxToDp(this, 120));
                     row.addView(txtCommand);
 
                     // damage
                     TextView txtDmg = new TextView(this);
-                    textViewSetting(txtDmg);
+                    textViewSetting(txtDmg, headFlg);
                     txtDmg.setText(data.getString(JSON_DAMAGE));
                     row.addView(txtDmg);
 
                     // occ_F
                     TextView txtOccF = new TextView(this);
-                    textViewSetting(txtOccF);
+                    textViewSetting(txtOccF, headFlg);
                     txtOccF.setText(data.getString(JSON_OCC_F));
                     row.addView(txtOccF);
 
                     // def_F
                     TextView txtDefF = new TextView(this);
-                    textViewSetting(txtDefF);
+                    textViewSetting(txtDefF, headFlg);
                     txtDefF.setText(data.getString(JSON_DEF_F));
                     row.addView(txtDefF);
 
 
                     // hit_F
                     TextView txtHitF = new TextView(this);
-                    textViewSetting(txtHitF);
+                    textViewSetting(txtHitF, headFlg);
                     txtHitF.setText(data.getString(JSON_HIT_F));
                     row.addView(txtHitF);
 
@@ -167,7 +169,7 @@ public class CommandList  extends Activity implements View.OnClickListener {
      * @param txtView
      * @return
      */
-    private TextView textViewSetting(TextView txtView){
+    private TextView textViewSetting(TextView txtView, boolean headFlg){
         
         // 背景色
 //        txtView.setBackgroundColor(Color.parseColor("#77000000"));
@@ -175,7 +177,11 @@ public class CommandList  extends Activity implements View.OnClickListener {
 //        txtView.setHeight(calcPxToDp(30));
 
         // 文字色
-        txtView.setTextColor(Color.BLACK);
+        if(headFlg == true){
+            txtView.setTextColor(Color.WHITE);
+        }else {
+            txtView.setTextColor(Color.BLACK);
+        }
         // 文字サイズ
         txtView.setTextSize(15);
 
