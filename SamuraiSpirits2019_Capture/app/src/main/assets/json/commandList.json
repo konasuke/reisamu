@@ -1,247 +1,2939 @@
 {
   "char01" : [
     {
-      "no": "01",
-      "skillName": "奥義 弧月斬",
-      "command": "623 + LS or MS or HS",
-      "damage": 120,
-      "occ_F": 10,
-      "def_F": 20,
-      "hit_F": 20
+      "skillNo": "1",
+      "skillName": "（近距離）立ち小斬り",
+      "command": "-",
+      "damage": "30",
+      "occ_F": "5",
+      "def_F": "-5",
+      "hit_F": "-2"
     },
     {
-      "no": "02",
-      "skillName": "奥義 疾風弧月斬",
-      "command": "[踏み込み]623 + LS or MS or HS",
-      "damage": 120,
-      "occ_F": 10,
-      "def_F": 20,
-      "hit_F": 20
+      "skillNo": "2",
+      "skillName": "（近距離）立ち中斬り",
+      "command": "-",
+      "damage": "80",
+      "occ_F": "8",
+      "def_F": "-12",
+      "hit_F": "-1"
     },
     {
-      "no": "03",
-      "skillName": "奥義 旋風烈斬",
-      "command": "236 + LS or MS or HS",
-      "damage": 120,
-      "occ_F": 10,
-      "def_F": 20,
-      "hit_F": 20
+      "skillNo": "3",
+      "skillName": "（近距離）立ち大斬り",
+      "command": "-",
+      "damage": "220",
+      "occ_F": "15",
+      "def_F": "-28",
+      "hit_F": "-3"
     },
     {
-      "skillNo": "04",
-      "skillName": "奥偽 旋風烈斬",
-      "command": "236 + K",
-      "damage": 120,
-      "occ_F": 10,
-      "def_F": 20,
-      "hit_F": 20
+      "skillNo": "4",
+      "skillName": "（遠距離）立ち小斬り",
+      "command": "-",
+      "damage": "30",
+      "occ_F": "7",
+      "def_F": "-5",
+      "hit_F": "-9"
     },
     {
-      "skillNo": "05",
-      "skillName": "奥義 烈震斬",
-      "command": "421 + LS or MS or HS",
-      "damage": 120,
-      "occ_F": 10,
-      "def_F": 20,
-      "hit_F": 20
+      "skillNo": "5",
+      "skillName": "（遠距離）立ち中斬り",
+      "command": "-",
+      "damage": "100",
+      "occ_F": "14",
+      "def_F": "-12",
+      "hit_F": "-4"
     },
     {
-      "skillNo": "07",
+      "skillNo": "6",
+      "skillName": "（遠距離）立ち大斬り",
+      "command": "-",
+      "damage": "300",
+      "occ_F": "27",
+      "def_F": "-16",
+      "hit_F": "-7"
+    },
+    {
+      "skillNo": "7",
+      "skillName": "立ち蹴り",
+      "command": "-",
+      "damage": "50",
+      "occ_F": "12",
+      "def_F": "-6",
+      "hit_F": "-3"
+    },
+    {
+      "skillNo": "8",
+      "skillName": "（近距離）しゃがみ小斬り",
+      "command": "-",
+      "damage": "30",
+      "occ_F": "5",
+      "def_F": "-5",
+      "hit_F": "-1"
+    },
+    {
+      "skillNo": "9",
+      "skillName": "（近距離）しゃがみ中斬り",
+      "command": "-",
+      "damage": "80",
+      "occ_F": "6",
+      "def_F": "-12",
+      "hit_F": "3"
+    },
+    {
+      "skillNo": "10",
+      "skillName": "（遠距離）しゃがみ小斬り",
+      "command": "-",
+      "damage": "30",
+      "occ_F": "8",
+      "def_F": "-28",
+      "hit_F": "-4"
+    },
+    {
+      "skillNo": "11",
+      "skillName": "（遠距離）しゃがみ中斬り",
+      "command": "-",
+      "damage": "90",
+      "occ_F": "11",
+      "def_F": "-5",
+      "hit_F": "1"
+    },
+    {
+      "skillNo": "12",
+      "skillName": "しゃがみ大斬り",
+      "command": "-",
+      "damage": "150",
+      "occ_F": "19",
+      "def_F": "-12",
+      "hit_F": "-7"
+    },
+    {
+      "skillNo": "13",
+      "skillName": "しゃがみ蹴り",
+      "command": "-",
+      "damage": "20",
+      "occ_F": "5",
+      "def_F": "-3",
+      "hit_F": "0"
+    },
+    {
+      "skillNo": "14",
+      "skillName": "ジャンプ小斬り",
+      "command": "-",
+      "damage": "50",
+      "occ_F": "9",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "15",
+      "skillName": "ジャンプ中斬り",
+      "command": "-",
+      "damage": "100",
+      "occ_F": "11",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "16",
+      "skillName": "ジャンプ大斬り",
+      "command": "-",
+      "damage": "160",
+      "occ_F": "14",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "17",
+      "skillName": "ジャンプ蹴り",
+      "command": "-",
+      "damage": "30",
+      "occ_F": "8",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "18",
+      "skillName": "6+蹴り",
+      "command": "-",
+      "damage": "30",
+      "occ_F": "7",
+      "def_F": "-7",
+      "hit_F": "-4"
+    },
+    {
+      "skillNo": "19",
+      "skillName": "3+蹴り",
+      "command": "-",
+      "damage": "70",
+      "occ_F": "12",
+      "def_F": "-29",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "20",
+      "skillName": "（踏み込み）小斬り",
+      "command": "-",
+      "damage": "50",
+      "occ_F": "5",
+      "def_F": "-7",
+      "hit_F": "-2"
+    },
+    {
+      "skillNo": "21",
+      "skillName": "（踏み込み）中斬り",
+      "command": "-",
+      "damage": "80",
+      "occ_F": "8",
+      "def_F": "-35",
+      "hit_F": "-2"
+    },
+    {
+      "skillNo": "22",
+      "skillName": "（踏み込み）大斬り",
+      "command": "-",
+      "damage": "140",
+      "occ_F": "12",
+      "def_F": "-17",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "23",
+      "skillName": "（踏み込み）蹴り",
+      "command": "-",
+      "damage": "70",
+      "occ_F": "11",
+      "def_F": "-31",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "24",
+      "skillName": "不意打ち",
+      "command": "中+大",
+      "damage": "70",
+      "occ_F": "20",
+      "def_F": "-",
+      "hit_F": "2"
+    },
+    {
+      "skillNo": "25",
+      "skillName": "避け",
+      "command": "小+大",
+      "damage": "-",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "26",
+      "skillName": "防御崩し（前）",
+      "command": "蹴り+大",
+      "damage": "-",
+      "occ_F": "4",
+      "def_F": "-",
+      "hit_F": "20"
+    },
+    {
+      "skillNo": "27",
+      "skillName": "防御崩し（後）",
+      "command": "4+蹴り+大",
+      "damage": "-",
+      "occ_F": "6",
+      "def_F": "-",
+      "hit_F": "25"
+    },
+    {
+      "skillNo": "28",
+      "skillName": "小・弧月斬",
+      "command": "623+小",
+      "damage": "60*40",
+      "occ_F": "7",
+      "def_F": "-30",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "29",
+      "skillName": "中・弧月斬",
+      "command": "623+中",
+      "damage": "60*20*40",
+      "occ_F": "7",
+      "def_F": "-50",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "30",
+      "skillName": "大・弧月斬",
+      "command": "623+大",
+      "damage": "80*40*30*30",
+      "occ_F": "7",
+      "def_F": "-71",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "31",
+      "skillName": "小・疾風弧月斬",
+      "command": "（踏み込み中）623+小",
+      "damage": "60*40",
+      "occ_F": "7",
+      "def_F": "-30",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "32",
+      "skillName": "中・疾風弧月斬",
+      "command": "（踏み込み中）623+中",
+      "damage": "60*20*40",
+      "occ_F": "7",
+      "def_F": "-50",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "33",
+      "skillName": "大・疾風弧月斬",
+      "command": "（踏み込み中）623+大",
+      "damage": "80*40*30*30",
+      "occ_F": "7",
+      "def_F": "-71",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "34",
+      "skillName": "小・旋風裂斬",
+      "command": "236+小",
+      "damage": "30*50",
+      "occ_F": "33",
+      "def_F": "3",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "35",
+      "skillName": "中・旋風裂斬",
+      "command": "236+中",
+      "damage": "30*50",
+      "occ_F": "35",
+      "def_F": "-6",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "36",
+      "skillName": "大・旋風裂斬",
+      "command": "236+大",
+      "damage": "30*50",
+      "occ_F": "37",
+      "def_F": "-16",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "37",
+      "skillName": "偽・旋風裂斬",
+      "command": "236+蹴り",
+      "damage": "-",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "38",
+      "skillName": "小・烈震斬",
+      "command": "421+小",
+      "damage": "100",
+      "occ_F": "25",
+      "def_F": "-41",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "39",
+      "skillName": "中・烈震斬",
+      "command": "421+中",
+      "damage": "20*20*80",
+      "occ_F": "26",
+      "def_F": "-41",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "40",
+      "skillName": "大・烈震斬",
+      "command": "421+大",
+      "damage": "40*40*100",
+      "occ_F": "33",
+      "def_F": "-41",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "41",
       "skillName": "酒攻撃",
-      "command": "214 + K",
-      "damage": 120,
-      "occ_F": 10,
-      "def_F": 20,
-      "hit_F": 20
+      "command": "214+蹴り",
+      "damage": "80",
+      "occ_F": "15",
+      "def_F": "-16",
+      "hit_F": "ダウン"
     },
     {
-      "skillNo": "07",
-      "skillName": "酒攻撃",
-      "command": "214 + K",
-      "damage": 120,
-      "occ_F": 10,
-      "def_F": 20,
-      "hit_F": 20
+      "skillNo": "42",
+      "skillName": "天覇凄煌斬",
+      "command": "236+中+大",
+      "damage": "420",
+      "occ_F": "11",
+      "def_F": "-41",
+      "hit_F": "ダウン"
     },
     {
-      "skillNo": "07",
-      "skillName": "酒攻撃",
-      "command": "214 + K",
-      "damage": 120,
-      "occ_F": 10,
-      "def_F": 20,
-      "hit_F": 20
+      "skillNo": "43",
+      "skillName": "天覇封神斬",
+      "command": "641236+蹴り+大",
+      "damage": "700",
+      "occ_F": "30",
+      "def_F": "-45",
+      "hit_F": "ダウン"
     },
     {
-      "skillNo": "07",
-      "skillName": "酒攻撃",
-      "command": "214 + K",
-      "damage": 120,
-      "occ_F": 10,
-      "def_F": 20,
-      "hit_F": 20
+      "skillNo": "44",
+      "skillName": "立ち素手攻撃",
+      "command": "-",
+      "damage": "50",
+      "occ_F": "6",
+      "def_F": "-10",
+      "hit_F": "-5"
     },
     {
-      "skillNo": "07",
-      "skillName": "酒攻撃",
-      "command": "214 + K",
-      "damage": 120,
-      "occ_F": 10,
-      "def_F": 20,
-      "hit_F": 20
+      "skillNo": "45",
+      "skillName": "しゃがみ素手攻撃",
+      "command": "-",
+      "damage": "50",
+      "occ_F": "6",
+      "def_F": "-9",
+      "hit_F": "-4"
     },
     {
-      "skillNo": "07",
-      "skillName": "酒攻撃",
-      "command": "214 + K",
-      "damage": 120,
-      "occ_F": 10,
-      "def_F": 20,
-      "hit_F": 20
+      "skillNo": "46",
+      "skillName": "ジャンプ素手攻撃",
+      "command": "-",
+      "damage": "50",
+      "occ_F": "6",
+      "def_F": "-",
+      "hit_F": "-"
     },
     {
-      "skillNo": "07",
-      "skillName": "酒攻撃",
-      "command": "214 + K",
-      "damage": 120,
-      "occ_F": 10,
-      "def_F": 20,
-      "hit_F": 20
+      "skillNo": "47",
+      "skillName": "ジャンプ",
+      "command": "-",
+      "damage": "-",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": "-"
     },
     {
-      "skillNo": "07",
-      "skillName": "酒攻撃",
-      "command": "214 + K",
-      "damage": 120,
-      "occ_F": 10,
-      "def_F": 20,
-      "hit_F": 20
+      "skillNo": "48",
+      "skillName": "前ジャンプ",
+      "command": "-",
+      "damage": "-",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": "-"
     },
     {
-      "skillNo": "07",
-      "skillName": "酒攻撃",
-      "command": "214 + K",
-      "damage": 120,
-      "occ_F": 10,
-      "def_F": 20,
-      "hit_F": 20
+      "skillNo": "49",
+      "skillName": "バックステップ",
+      "command": "-",
+      "damage": "-",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": "-"
     },
     {
-      "skillNo": "07",
-      "skillName": "酒攻撃",
-      "command": "214 + K",
-      "damage": 120,
-      "occ_F": 10,
-      "def_F": 20,
-      "hit_F": 20
+      "skillNo": "50",
+      "skillName": "武器を拾う",
+      "command": "-",
+      "damage": "-",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": "-"
     },
     {
-      "skillNo": "07",
-      "skillName": "酒攻撃",
-      "command": "214 + K",
-      "damage": 120,
-      "occ_F": 10,
-      "def_F": 20,
-      "hit_F": 20
+      "skillNo": "51",
+      "skillName": "武器を捨てる",
+      "command": "2+中+大+蹴り",
+      "damage": "-",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": "-"
     },
     {
-      "skillNo": "07",
-      "skillName": "酒攻撃",
-      "command": "214 + K",
-      "damage": 120,
-      "occ_F": 10,
-      "def_F": 20,
-      "hit_F": 20
+      "skillNo": "武器を捨てる",
+      "skillName": "2+中+大+蹴り",
+      "command": "-",
+      "damage": "-",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": ""
+    }
+  ],
+  "char02" : [
+    {
+      "skillNo": "1",
+      "skillName": "（近距離）立ち小斬り",
+      "command": "-",
+      "damage": "30",
+      "occ_F": "5",
+      "def_F": "-5",
+      "hit_F": "1"
     },
     {
-      "skillNo": "07",
-      "skillName": "酒攻撃",
-      "command": "214 + K",
-      "damage": 120,
-      "occ_F": 10,
-      "def_F": 20,
-      "hit_F": 20
+      "skillNo": "2",
+      "skillName": "（近距離）立ち中斬り",
+      "command": "-",
+      "damage": "80",
+      "occ_F": "7",
+      "def_F": "-12",
+      "hit_F": "-2"
     },
     {
-      "skillNo": "07",
-      "skillName": "酒攻撃",
-      "command": "214 + K",
-      "damage": 120,
-      "occ_F": 10,
-      "def_F": 20,
-      "hit_F": 20
+      "skillNo": "3",
+      "skillName": "（近距離）立ち大斬り",
+      "command": "-",
+      "damage": "100*80",
+      "occ_F": "14",
+      "def_F": "-28",
+      "hit_F": "2"
     },
     {
-      "skillNo": "07",
-      "skillName": "酒攻撃",
-      "command": "214 + K",
-      "damage": 120,
-      "occ_F": 10,
-      "def_F": 20,
-      "hit_F": 20
+      "skillNo": "4",
+      "skillName": "（遠距離）立ち小斬り",
+      "command": "-",
+      "damage": "40",
+      "occ_F": "10",
+      "def_F": "-5",
+      "hit_F": "-1"
     },
     {
-      "skillNo": "07",
-      "skillName": "酒攻撃",
-      "command": "214 + K",
-      "damage": 120,
-      "occ_F": 10,
-      "def_F": 20,
-      "hit_F": 20
+      "skillNo": "5",
+      "skillName": "（遠距離）立ち中斬り",
+      "command": "-",
+      "damage": "100",
+      "occ_F": "13",
+      "def_F": "-12",
+      "hit_F": "-5"
     },
     {
-      "skillNo": "07",
-      "skillName": "酒攻撃",
-      "command": "214 + K",
-      "damage": 120,
-      "occ_F": 10,
-      "def_F": 20,
-      "hit_F": 20
+      "skillNo": "6",
+      "skillName": "（遠距離）立ち大斬り",
+      "command": "-",
+      "damage": "240",
+      "occ_F": "15",
+      "def_F": "-16",
+      "hit_F": "-2"
     },
     {
-      "skillNo": "07",
-      "skillName": "酒攻撃",
-      "command": "214 + K",
-      "damage": 120,
-      "occ_F": 10,
-      "def_F": 20,
-      "hit_F": 20
+      "skillNo": "7",
+      "skillName": "立ち蹴り",
+      "command": "-",
+      "damage": "50",
+      "occ_F": "11",
+      "def_F": "-4",
+      "hit_F": "-1"
     },
     {
-      "skillNo": "07",
-      "skillName": "酒攻撃",
-      "command": "214 + K",
-      "damage": 120,
-      "occ_F": 10,
-      "def_F": 20,
-      "hit_F": 20
+      "skillNo": "8",
+      "skillName": "しゃがみ小斬り",
+      "command": "-",
+      "damage": "30",
+      "occ_F": "6",
+      "def_F": "-5",
+      "hit_F": "0"
     },
     {
-      "skillNo": "07",
-      "skillName": "酒攻撃",
-      "command": "214 + K",
-      "damage": 120,
-      "occ_F": 10,
-      "def_F": 20,
-      "hit_F": 20
+      "skillNo": "9",
+      "skillName": "しゃがみ中斬り",
+      "command": "-",
+      "damage": "40*40*40",
+      "occ_F": "10",
+      "def_F": "-7",
+      "hit_F": "-2"
     },
     {
-      "skillNo": "07",
-      "skillName": "酒攻撃",
-      "command": "214 + K",
-      "damage": 120,
-      "occ_F": 10,
-      "def_F": 20,
-      "hit_F": 20
+      "skillNo": "10",
+      "skillName": "しゃがみ大斬り",
+      "command": "",
+      "damage": "160",
+      "occ_F": "13",
+      "def_F": "-28",
+      "hit_F": "-8"
     },
     {
-      "skillNo": "07",
-      "skillName": "酒攻撃",
-      "command": "214 + K",
-      "damage": 120,
-      "occ_F": 10,
-      "def_F": 20,
-      "hit_F": 20
+      "skillNo": "11",
+      "skillName": "しゃがみ蹴り",
+      "command": "-",
+      "damage": "20",
+      "occ_F": "6",
+      "def_F": "-3",
+      "hit_F": "0"
+    },
+    {
+      "skillNo": "12",
+      "skillName": "ジャンプ小斬り",
+      "command": "-",
+      "damage": "30",
+      "occ_F": "5",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "13",
+      "skillName": "ジャンプ中斬り",
+      "command": "-",
+      "damage": "100",
+      "occ_F": "6",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "14",
+      "skillName": "ジャンプ大斬り",
+      "command": "-",
+      "damage": "150",
+      "occ_F": "10",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "15",
+      "skillName": "ジャンプ蹴り",
+      "command": "-",
+      "damage": "30",
+      "occ_F": "9",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "16",
+      "skillName": "6+蹴り",
+      "command": "-",
+      "damage": "20*20*20",
+      "occ_F": "11",
+      "def_F": "-11",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "17",
+      "skillName": "3+蹴り",
+      "command": "-",
+      "damage": "70",
+      "occ_F": "12",
+      "def_F": "-9",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "18",
+      "skillName": "（踏み込み）小斬り",
+      "command": "-",
+      "damage": "30",
+      "occ_F": "4",
+      "def_F": "-42",
+      "hit_F": "-4"
+    },
+    {
+      "skillNo": "19",
+      "skillName": "（踏み込み）中斬り",
+      "command": "-",
+      "damage": "100",
+      "occ_F": "9",
+      "def_F": "-35",
+      "hit_F": "-7"
+    },
+    {
+      "skillNo": "20",
+      "skillName": "（踏み込み）大斬り",
+      "command": "-",
+      "damage": "140",
+      "occ_F": "9",
+      "def_F": "-26",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "21",
+      "skillName": "（踏み込み）蹴り",
+      "command": "-",
+      "damage": "70",
+      "occ_F": "6",
+      "def_F": "-4",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "22",
+      "skillName": "不意打ち",
+      "command": "中斬り+大斬り",
+      "damage": "80",
+      "occ_F": "20",
+      "def_F": "-12",
+      "hit_F": "1"
+    },
+    {
+      "skillNo": "23",
+      "skillName": "避け",
+      "command": "小斬り+大斬り",
+      "damage": "-",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "24",
+      "skillName": "防御崩し（前）",
+      "command": "蹴り＋大斬り",
+      "damage": "-",
+      "occ_F": "4",
+      "def_F": "-",
+      "hit_F": "20"
+    },
+    {
+      "skillNo": "25",
+      "skillName": "防御崩し（後）",
+      "command": "4+蹴り+大斬り",
+      "damage": "-",
+      "occ_F": "6",
+      "def_F": "-",
+      "hit_F": "25"
+    },
+    {
+      "skillNo": "26",
+      "skillName": "カムイフム　ケスプ",
+      "command": "（空中で）2+蹴り",
+      "damage": "40",
+      "occ_F": "14",
+      "def_F": "-",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "27",
+      "skillName": "レラ　キシマ　テク",
+      "command": "（空中で）6+蹴り",
+      "damage": "96",
+      "occ_F": "4",
+      "def_F": "-",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "28",
+      "skillName": "三角跳び",
+      "command": "（空中画面端で）9",
+      "damage": "-",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": ""
+    },
+    {
+      "skillNo": "29",
+      "skillName": "小・アンヌ　ムツべ",
+      "command": "412+小斬り",
+      "damage": "80",
+      "occ_F": "10",
+      "def_F": "-22",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "30",
+      "skillName": "中・アンヌ　ムツベ",
+      "command": "412+中斬り",
+      "damage": "100",
+      "occ_F": "16",
+      "def_F": "-29",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "31",
+      "skillName": "大アンヌ　ムツベ",
+      "command": "412+大斬り",
+      "damage": "120",
+      "occ_F": "24",
+      "def_F": "-34",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "32",
+      "skillName": "小・レラ　ムツベ",
+      "command": "236+小斬り",
+      "damage": "80",
+      "occ_F": "9",
+      "def_F": "-33",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "33",
+      "skillName": "中・レラ　ムツベ",
+      "command": "236+中斬り",
+      "damage": "100",
+      "occ_F": "14",
+      "def_F": "-41",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "34",
+      "skillName": "大・レラ　ムツベ",
+      "command": "236+大斬り",
+      "damage": "120",
+      "occ_F": "16",
+      "def_F": "-59",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "35",
+      "skillName": "小・カムイ　リムセ",
+      "command": "421+小斬り",
+      "damage": "80",
+      "occ_F": "11",
+      "def_F": "-13",
+      "hit_F": "-10"
+    },
+    {
+      "skillNo": "36",
+      "skillName": "中・カムイ　リムセ",
+      "command": "421+中斬り",
+      "damage": "60*50",
+      "occ_F": "13",
+      "def_F": "392",
+      "hit_F": "-11"
+    },
+    {
+      "skillNo": "37",
+      "skillName": "大・カムイ　リムセ",
+      "command": "421+大斬り",
+      "damage": "60*40*40",
+      "occ_F": "18",
+      "def_F": "-15",
+      "hit_F": "-12"
+    },
+    {
+      "skillNo": "38",
+      "skillName": "小・カムイ　リムセ返し",
+      "command": "（カムイリムセ後）小斬り",
+      "damage": "50",
+      "occ_F": "6",
+      "def_F": "-18",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "39",
+      "skillName": "中・カムイ　リムセ返し",
+      "command": "（カムイリムセ後）中斬り",
+      "damage": "50",
+      "occ_F": "6",
+      "def_F": "-16",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "40",
+      "skillName": "大・カムイ　リムセ返し",
+      "command": "（カムイリムセ後）大斬り",
+      "damage": "50",
+      "occ_F": "6",
+      "def_F": "-18",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "41",
+      "skillName": "小・アムベ　ヤトロ",
+      "command": "214+小斬り",
+      "damage": "70",
+      "occ_F": "19",
+      "def_F": "-",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "42",
+      "skillName": "中・アムベ　ヤトロ",
+      "command": "214+中斬り",
+      "damage": "70",
+      "occ_F": "19",
+      "def_F": "-",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "43",
+      "skillName": "大・アムベ　ヤトロ",
+      "command": "214+大斬り",
+      "damage": "70",
+      "occ_F": "20",
+      "def_F": "-",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "44",
+      "skillName": "鷹につかまる",
+      "command": "214+蹴り",
+      "damage": "-",
+      "occ_F": "??",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "45",
+      "skillName": "小・鷹につかまり攻撃",
+      "command": "（鷹につかまり状態）小斬り",
+      "damage": "30",
+      "occ_F": "5",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "46",
+      "skillName": "中・鷹につかまり攻撃",
+      "command": "（鷹につかまり状態）中斬り",
+      "damage": "100",
+      "occ_F": "6",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "47",
+      "skillName": "大・鷹につかまり攻撃",
+      "command": "（鷹につかまり状態）大斬り",
+      "damage": "150",
+      "occ_F": "7",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "48",
+      "skillName": "鷹から降りる",
+      "command": "蹴りor6+蹴りor4+蹴り",
+      "damage": "-",
+      "occ_F": "??",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "49",
+      "skillName": "カムイ　ムツベ",
+      "command": "（鷹につかまり状態）中+大",
+      "damage": "100",
+      "occ_F": "6",
+      "def_F": "-18",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "50",
+      "skillName": "カムイフム　ケスプ",
+      "command": "（鷹につかまり状態）2+蹴り",
+      "damage": "40",
+      "occ_F": "13",
+      "def_F": "-",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "51",
+      "skillName": "エレルシ　カムイ　リムセ",
+      "command": "236+中+大",
+      "damage": "408",
+      "occ_F": "8",
+      "def_F": "-91",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "52",
+      "skillName": "アル　レタラ　カムイフム　マキリ",
+      "command": "641236+蹴り+大",
+      "damage": "650",
+      "occ_F": "30",
+      "def_F": "-55",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "53",
+      "skillName": "立ち素手攻撃",
+      "command": "-",
+      "damage": "50",
+      "occ_F": "9",
+      "def_F": "-7",
+      "hit_F": "-2"
+    },
+    {
+      "skillNo": "54",
+      "skillName": "しゃがみ素手攻撃",
+      "command": "-",
+      "damage": "50",
+      "occ_F": "6",
+      "def_F": "-7",
+      "hit_F": "-2"
+    },
+    {
+      "skillNo": "55",
+      "skillName": "ジャンプ素手攻撃",
+      "command": "-",
+      "damage": "50",
+      "occ_F": "8",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "56",
+      "skillName": "ジャンプ",
+      "command": "-",
+      "damage": "-",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "57",
+      "skillName": "前ジャンプ",
+      "command": "-",
+      "damage": "-",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "58",
+      "skillName": "バックステップ",
+      "command": "-",
+      "damage": "-",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "59",
+      "skillName": "武器を拾う",
+      "command": "-",
+      "damage": "-",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "60",
+      "skillName": "武器を捨てる",
+      "command": "2+中+大+蹴り",
+      "damage": "-",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": "-"
+    }
+  ],
+  "char03" : [
+    {
+      "skillNo": "1",
+      "skillName": "（近距離）立ち小斬り",
+      "command": "-",
+      "damage": "30",
+      "occ_F": "5",
+      "def_F": "-5",
+      "hit_F": "1"
+    },
+    {
+      "skillNo": "2",
+      "skillName": "（近距離）立ち中斬り",
+      "command": "-",
+      "damage": "90",
+      "occ_F": "8",
+      "def_F": "-12",
+      "hit_F": "-1"
+    },
+    {
+      "skillNo": "3",
+      "skillName": "（近距離）立ち大斬り",
+      "command": "-",
+      "damage": "120*100",
+      "occ_F": "15",
+      "def_F": "-28",
+      "hit_F": "-4"
+    },
+    {
+      "skillNo": "4",
+      "skillName": "（遠距離）立ち小斬り",
+      "command": "-",
+      "damage": "40",
+      "occ_F": "9",
+      "def_F": "-5",
+      "hit_F": "-4"
+    },
+    {
+      "skillNo": "5",
+      "skillName": "（遠距離）立ち中斬り",
+      "command": "-",
+      "damage": "100",
+      "occ_F": "13",
+      "def_F": "-12",
+      "hit_F": "-8"
+    },
+    {
+      "skillNo": "6",
+      "skillName": "（遠距離）立ち大斬り",
+      "command": "-",
+      "damage": "150*110",
+      "occ_F": "34",
+      "def_F": "-29",
+      "hit_F": "-5"
+    },
+    {
+      "skillNo": "7",
+      "skillName": "立ち蹴り",
+      "command": "-",
+      "damage": "50",
+      "occ_F": "13",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "8",
+      "skillName": "しゃがみ小斬り",
+      "command": "-",
+      "damage": "30",
+      "occ_F": "8",
+      "def_F": "-5",
+      "hit_F": "-3"
+    },
+    {
+      "skillNo": "9",
+      "skillName": "しゃがみ中斬り",
+      "command": "-",
+      "damage": "100",
+      "occ_F": "12",
+      "def_F": "-12",
+      "hit_F": "-5"
+    },
+    {
+      "skillNo": "10",
+      "skillName": "しゃがみ大斬り",
+      "command": "-",
+      "damage": "200",
+      "occ_F": "18",
+      "def_F": "-28",
+      "hit_F": "KD"
+    },
+    {
+      "skillNo": "11",
+      "skillName": "しゃがみ蹴り",
+      "command": "-",
+      "damage": "20",
+      "occ_F": "5",
+      "def_F": "-3",
+      "hit_F": "0"
+    },
+    {
+      "skillNo": "12",
+      "skillName": "ジャンプ小斬り",
+      "command": "-",
+      "damage": "40",
+      "occ_F": "9",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "13",
+      "skillName": "ジャンプ中斬り",
+      "command": "-",
+      "damage": "100",
+      "occ_F": "11",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "14",
+      "skillName": "ジャンプ大斬り",
+      "command": "-",
+      "damage": "150",
+      "occ_F": "13",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "15",
+      "skillName": "ジャンプ蹴り",
+      "command": "-",
+      "damage": "30",
+      "occ_F": "7",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "16",
+      "skillName": "6+蹴り",
+      "command": "-",
+      "damage": "40",
+      "occ_F": "9",
+      "def_F": "-14",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "17",
+      "skillName": "3+蹴り",
+      "command": "-",
+      "damage": "70",
+      "occ_F": "12",
+      "def_F": "-21",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "18",
+      "skillName": "（踏み込み）小斬り",
+      "command": "-",
+      "damage": "30",
+      "occ_F": "6",
+      "def_F": "-42",
+      "hit_F": "-2"
+    },
+    {
+      "skillNo": "19",
+      "skillName": "（踏み込み）中斬り",
+      "command": "-",
+      "damage": "150",
+      "occ_F": "18",
+      "def_F": "-35",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "20",
+      "skillName": "（踏み込み）大斬り",
+      "command": "-",
+      "damage": "160",
+      "occ_F": "25",
+      "def_F": "-35",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "21",
+      "skillName": "（踏み込み）蹴り",
+      "command": "-",
+      "damage": "70",
+      "occ_F": "9",
+      "def_F": "-29",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "22",
+      "skillName": "不意打ち",
+      "command": "中斬り+大斬り",
+      "damage": "80",
+      "occ_F": "24",
+      "def_F": "-",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "23",
+      "skillName": "避け",
+      "command": "小斬り+大斬り",
+      "damage": "-",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "24",
+      "skillName": "防御崩し（前）",
+      "command": "蹴り＋大斬り",
+      "damage": "-",
+      "occ_F": "4",
+      "def_F": "-",
+      "hit_F": "20"
+    },
+    {
+      "skillNo": "25",
+      "skillName": "防御崩し（後）",
+      "command": "4+蹴り+大斬り",
+      "damage": "-",
+      "occ_F": "6",
+      "def_F": "-",
+      "hit_F": "25"
+    },
+    {
+      "skillNo": "26",
+      "skillName": "空転撃",
+      "command": "（空中）6+蹴",
+      "damage": "112",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "27",
+      "skillName": "三角跳び",
+      "command": "（空中画面端）9",
+      "damage": "-",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "28",
+      "skillName": "小・爆炎龍",
+      "command": "236+小",
+      "damage": "60",
+      "occ_F": "24",
+      "def_F": "-9",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "29",
+      "skillName": "中・爆炎龍",
+      "command": "236+中",
+      "damage": "60",
+      "occ_F": "28",
+      "def_F": "-11",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "30",
+      "skillName": "大・爆炎龍",
+      "command": "236+大",
+      "damage": "60",
+      "occ_F": "32",
+      "def_F": "-13",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "31",
+      "skillName": "小・モズ落とし",
+      "command": "623+小",
+      "damage": "160",
+      "occ_F": "6",
+      "def_F": "-",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "32",
+      "skillName": "中・モズ落とし",
+      "command": "623+中",
+      "damage": "180",
+      "occ_F": "9",
+      "def_F": "-",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "33",
+      "skillName": "大・モズ落とし",
+      "command": "623+大",
+      "damage": "210",
+      "occ_F": "13",
+      "def_F": "-",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "34",
+      "skillName": "小・モズ落とし-颯-",
+      "command": "（踏み込み）623+小",
+      "damage": "140",
+      "occ_F": "6",
+      "def_F": "-",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "35",
+      "skillName": "中・モズ落とし-颯-",
+      "command": "（踏み込み）623+中",
+      "damage": "140",
+      "occ_F": "6",
+      "def_F": "-",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "36",
+      "skillName": "大・モズ落とし-颯-",
+      "command": "（踏み込み）623+大",
+      "damage": "140",
+      "occ_F": "6",
+      "def_F": "-",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "37",
+      "skillName": "小・静音",
+      "command": "22+小",
+      "damage": "-",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "38",
+      "skillName": "中・静音",
+      "command": "22+中",
+      "damage": "-",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "39",
+      "skillName": "大・静音",
+      "command": "22+大",
+      "damage": "-",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "40",
+      "skillName": "小・猿舞",
+      "command": "421+小",
+      "damage": "-",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "41",
+      "skillName": "中・猿舞",
+      "command": "421+中",
+      "damage": "-",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "42",
+      "skillName": "大・猿舞",
+      "command": "421+大",
+      "damage": "-",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "43",
+      "skillName": "うつせみ天舞",
+      "command": "63214+弱＋蹴",
+      "damage": "110",
+      "occ_F": "72",
+      "def_F": "-46",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "44",
+      "skillName": "うつせみ地斬",
+      "command": "63214+中+蹴",
+      "damage": "90",
+      "occ_F": "65",
+      "def_F": "-28",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "45",
+      "skillName": "身代わりの術（仏）",
+      "command": "（のけぞり中）6321463214+弱＋蹴",
+      "damage": "132",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "46",
+      "skillName": "身代わりの術（鬼）",
+      "command": "（のけぞり中）6321463214+中+蹴",
+      "damage": "90",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "47",
+      "skillName": "小・疾風手裏剣",
+      "command": "（空中）236+小",
+      "damage": "60",
+      "occ_F": "22",
+      "def_F": "-45?",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "48",
+      "skillName": "中・疾風手裏剣",
+      "command": "（空中）236+中",
+      "damage": "60*20",
+      "occ_F": "24",
+      "def_F": "-45?",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "49",
+      "skillName": "大・疾風手裏剣",
+      "command": "（空中）236+大",
+      "damage": "60*20*20",
+      "occ_F": "26",
+      "def_F": "-47?",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "50",
+      "skillName": "封じ手 微塵隠れ",
+      "command": "236+中+大",
+      "damage": "384",
+      "occ_F": "20",
+      "def_F": "-51",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "51",
+      "skillName": "真モズ落とし",
+      "command": "641236+蹴+大",
+      "damage": "650",
+      "occ_F": "30",
+      "def_F": "-45",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "52",
+      "skillName": "立ち素手攻撃",
+      "command": "-",
+      "damage": "50",
+      "occ_F": "8",
+      "def_F": "-3",
+      "hit_F": "2"
+    },
+    {
+      "skillNo": "53",
+      "skillName": "しゃがみ素手攻撃",
+      "command": "-",
+      "damage": "50",
+      "occ_F": "9",
+      "def_F": "-7",
+      "hit_F": "-2"
+    },
+    {
+      "skillNo": "54",
+      "skillName": "ジャンプ素手攻撃",
+      "command": "-",
+      "damage": "50",
+      "occ_F": "8",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "55",
+      "skillName": "ジャンプ",
+      "command": "-",
+      "damage": "-",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "56",
+      "skillName": "前ジャンプ",
+      "command": "-",
+      "damage": "-",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "57",
+      "skillName": "バックステップ",
+      "command": "-",
+      "damage": "-",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "58",
+      "skillName": "武器を拾う",
+      "command": "-",
+      "damage": "-",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "59",
+      "skillName": "武器を捨てる",
+      "command": "2+中+大+蹴り",
+      "damage": "-",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "60",
+      "skillName": "武器を捨てる",
+      "command": "2+中+大+蹴り",
+      "damage": "-",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": "-"
+    }
+  ],
+  "char04" : [
+    {
+      "skillNo": "1",
+      "skillName": "（近距離）立ち小斬り",
+      "command": "-",
+      "damage": "30",
+      "occ_F": "5",
+      "def_F": "-5",
+      "hit_F": "1"
+    },
+    {
+      "skillNo": "2",
+      "skillName": "（近距離）立ち中斬り",
+      "command": "-",
+      "damage": "80",
+      "occ_F": "8",
+      "def_F": "-12",
+      "hit_F": "-1"
+    },
+    {
+      "skillNo": "3",
+      "skillName": "（近距離）立ち大斬り",
+      "command": "-",
+      "damage": "200",
+      "occ_F": "16",
+      "def_F": "-28",
+      "hit_F": "-4"
+    },
+    {
+      "skillNo": "4",
+      "skillName": "（遠距離）立ち小斬り",
+      "command": "-",
+      "damage": "40",
+      "occ_F": "9",
+      "def_F": "-5",
+      "hit_F": "-4"
+    },
+    {
+      "skillNo": "5",
+      "skillName": "（遠距離）立ち中斬り",
+      "command": "-",
+      "damage": "110",
+      "occ_F": "13",
+      "def_F": "-12",
+      "hit_F": "-8"
+    },
+    {
+      "skillNo": "6",
+      "skillName": "（遠距離）立ち大斬り",
+      "command": "-",
+      "damage": "250",
+      "occ_F": "24",
+      "def_F": "-28",
+      "hit_F": "-7"
+    },
+    {
+      "skillNo": "7",
+      "skillName": "立ち蹴り",
+      "command": "-",
+      "damage": "50",
+      "occ_F": "13",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "8",
+      "skillName": "しゃがみ小斬り",
+      "command": "-",
+      "damage": "30",
+      "occ_F": "8",
+      "def_F": "-5",
+      "hit_F": "-3"
+    },
+    {
+      "skillNo": "9",
+      "skillName": "しゃがみ中斬り",
+      "command": "-",
+      "damage": "90",
+      "occ_F": "12",
+      "def_F": "-12",
+      "hit_F": "-5"
+    },
+    {
+      "skillNo": "10",
+      "skillName": "しゃがみ大斬り",
+      "command": "-",
+      "damage": "180",
+      "occ_F": "18",
+      "def_F": "-28",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "11",
+      "skillName": "しゃがみ蹴り",
+      "command": "-",
+      "damage": "20",
+      "occ_F": "5",
+      "def_F": "-3",
+      "hit_F": "0"
+    },
+    {
+      "skillNo": "12",
+      "skillName": "ジャンプ小斬り",
+      "command": "-",
+      "damage": "40",
+      "occ_F": "9",
+      "def_F": "-10",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "13",
+      "skillName": "ジャンプ中斬り",
+      "command": "-",
+      "damage": "100",
+      "occ_F": "11",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "14",
+      "skillName": "ジャンプ大斬り",
+      "command": "-",
+      "damage": "150",
+      "occ_F": "13",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "15",
+      "skillName": "ジャンプ蹴り",
+      "command": "-",
+      "damage": "30",
+      "occ_F": "7",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "16",
+      "skillName": "6+蹴り",
+      "command": "-",
+      "damage": "40",
+      "occ_F": "9",
+      "def_F": "-10",
+      "hit_F": "-4"
+    },
+    {
+      "skillNo": "17",
+      "skillName": "3+蹴り",
+      "command": "-",
+      "damage": "70",
+      "occ_F": "12",
+      "def_F": "-20",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "18",
+      "skillName": "（踏み込み）小斬り",
+      "command": "-",
+      "damage": "30",
+      "occ_F": "6",
+      "def_F": "-42",
+      "hit_F": "-2"
+    },
+    {
+      "skillNo": "19",
+      "skillName": "（踏み込み）中斬り",
+      "command": "-",
+      "damage": "140",
+      "occ_F": "18",
+      "def_F": "-35",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "20",
+      "skillName": "（踏み込み）大斬り",
+      "command": "-",
+      "damage": "150",
+      "occ_F": "26",
+      "def_F": "-22",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "21",
+      "skillName": "（踏み込み）蹴り",
+      "command": "-",
+      "damage": "70",
+      "occ_F": "9",
+      "def_F": "-28",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "22",
+      "skillName": "不意打ち",
+      "command": "中斬り+大斬り",
+      "damage": "60",
+      "occ_F": "18",
+      "def_F": "-16",
+      "hit_F": "-3"
+    },
+    {
+      "skillNo": "23",
+      "skillName": "避け",
+      "command": "小斬り+大斬り",
+      "damage": "-",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "24",
+      "skillName": "防御崩し（前）",
+      "command": "蹴り＋大斬り",
+      "damage": "-",
+      "occ_F": "4",
+      "def_F": "-",
+      "hit_F": "20"
+    },
+    {
+      "skillNo": "25",
+      "skillName": "防御崩し（後）",
+      "command": "4+蹴り+大斬り",
+      "damage": "-",
+      "occ_F": "6",
+      "def_F": "-",
+      "hit_F": "25"
+    },
+    {
+      "skillNo": "26",
+      "skillName": "スターダストドロップ",
+      "command": "（空中）6+蹴",
+      "damage": "112",
+      "occ_F": "4",
+      "def_F": "-",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "27",
+      "skillName": "三角跳び",
+      "command": "（空中画面端）9",
+      "damage": "-",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "28",
+      "skillName": "小・ストライクヘッズ",
+      "command": "623+小",
+      "damage": "170",
+      "occ_F": "10",
+      "def_F": "-",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "29",
+      "skillName": "中・ストライクヘッズ",
+      "command": "623+中",
+      "damage": "170",
+      "occ_F": "10",
+      "def_F": "-",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "30",
+      "skillName": "大・ストライクヘッズ",
+      "command": "623+大",
+      "damage": "170",
+      "occ_F": "10",
+      "def_F": "-",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "31",
+      "skillName": "小・プラズマブレード",
+      "command": "236+小",
+      "damage": "60",
+      "occ_F": "13",
+      "def_F": "-21",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "32",
+      "skillName": "中・プラズマブレード",
+      "command": "236+中",
+      "damage": "60",
+      "occ_F": "13",
+      "def_F": "-24",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "33",
+      "skillName": "大・プラズマブレード",
+      "command": "236+大",
+      "damage": "60",
+      "occ_F": "13",
+      "def_F": "-27",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "34",
+      "skillName": "レプリカアタック（ヘッド）",
+      "command": "63214+小+蹴",
+      "damage": "120",
+      "occ_F": "34?",
+      "def_F": "-45",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "35",
+      "skillName": "レプリカアタック（リア）",
+      "command": "63214+中+蹴",
+      "damage": "120",
+      "occ_F": "34?",
+      "def_F": "-45",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "36",
+      "skillName": "ラッシュドッグ",
+      "command": "214+小",
+      "damage": "90",
+      "occ_F": "32",
+      "def_F": "-",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "37",
+      "skillName": "マシンガンドッグ",
+      "command": "214+中",
+      "damage": "40",
+      "occ_F": "36",
+      "def_F": "-",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "38",
+      "skillName": "レプリカドッグ",
+      "command": "214+大",
+      "damage": "80",
+      "occ_F": "79",
+      "def_F": "-",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "39",
+      "skillName": "オーバーヘッドクラッシュ",
+      "command": "214+蹴",
+      "damage": "80",
+      "occ_F": "52",
+      "def_F": "-",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "40",
+      "skillName": "イミテイトレプリカ（ヘッド）",
+      "command": "（のけぞり中）6321463214+弱＋蹴",
+      "damage": "120",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "41",
+      "skillName": "イミテイトレプリカ（リア）",
+      "command": "（のけぞり中）6321463214+中+蹴",
+      "damage": "120",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "42",
+      "skillName": "メガプラズマファクター",
+      "command": "236+中+大",
+      "damage": "360",
+      "occ_F": "13",
+      "def_F": "-78?",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "43",
+      "skillName": "ジャスティスインパルスX",
+      "command": "641236+蹴+大",
+      "damage": "460",
+      "occ_F": "29",
+      "def_F": "-49",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "44",
+      "skillName": "立ち素手攻撃",
+      "command": "-",
+      "damage": "50",
+      "occ_F": "8",
+      "def_F": "-3",
+      "hit_F": "2"
+    },
+    {
+      "skillNo": "45",
+      "skillName": "しゃがみ素手攻撃",
+      "command": "-",
+      "damage": "50",
+      "occ_F": "9",
+      "def_F": "-7",
+      "hit_F": "-2"
+    },
+    {
+      "skillNo": "46",
+      "skillName": "ジャンプ素手攻撃",
+      "command": "-",
+      "damage": "50",
+      "occ_F": "8",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "47",
+      "skillName": "ジャンプ",
+      "command": "-",
+      "damage": "-",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "48",
+      "skillName": "前ジャンプ",
+      "command": "-",
+      "damage": "-",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "49",
+      "skillName": "バックステップ",
+      "command": "-",
+      "damage": "-",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "50",
+      "skillName": "武器を拾う",
+      "command": "-",
+      "damage": "-",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "51",
+      "skillName": "武器を捨てる",
+      "command": "2+中+大+蹴り",
+      "damage": "-",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": "-"
+    }
+  ],
+  "char05" : [
+    {
+      "skillNo": "1",
+      "skillName": "（近距離）立ち小斬り",
+      "command": "-",
+      "damage": "30",
+      "occ_F": "5",
+      "def_F": "-2",
+      "hit_F": "1"
+    },
+    {
+      "skillNo": "2",
+      "skillName": "（近距離）立ち中斬り",
+      "command": "-",
+      "damage": "90",
+      "occ_F": "8",
+      "def_F": "-12",
+      "hit_F": "-3"
+    },
+    {
+      "skillNo": "3",
+      "skillName": "（遠距離）立ち小斬り",
+      "command": "-",
+      "damage": "50",
+      "occ_F": "8",
+      "def_F": "-5",
+      "hit_F": "-5"
+    },
+    {
+      "skillNo": "4",
+      "skillName": "（遠距離）立ち中斬り",
+      "command": "-",
+      "damage": "80",
+      "occ_F": "9",
+      "def_F": "-12",
+      "hit_F": "-6"
+    },
+    {
+      "skillNo": "5",
+      "skillName": "大斬り",
+      "command": "-",
+      "damage": "120*120",
+      "occ_F": "12",
+      "def_F": "-28",
+      "hit_F": "-9"
+    },
+    {
+      "skillNo": "6",
+      "skillName": "立ち蹴り",
+      "command": "-",
+      "damage": "50",
+      "occ_F": "8",
+      "def_F": "-9",
+      "hit_F": "-6"
+    },
+    {
+      "skillNo": "7",
+      "skillName": "（近距離）しゃがみ小斬り",
+      "command": "-",
+      "damage": "30",
+      "occ_F": "5",
+      "def_F": "-2",
+      "hit_F": "1"
+    },
+    {
+      "skillNo": "8",
+      "skillName": "（近距離）しゃがみ中斬り",
+      "command": "-",
+      "damage": "80",
+      "occ_F": "6",
+      "def_F": "-2",
+      "hit_F": "3"
+    },
+    {
+      "skillNo": "9",
+      "skillName": "（近距離）しゃがみ大斬り",
+      "command": "-",
+      "damage": "120*100",
+      "occ_F": "15",
+      "def_F": "-28",
+      "hit_F": "-2"
+    },
+    {
+      "skillNo": "10",
+      "skillName": "（遠距離）しゃがみ小斬り",
+      "command": "-",
+      "damage": "40",
+      "occ_F": "5",
+      "def_F": "-5",
+      "hit_F": "-2"
+    },
+    {
+      "skillNo": "11",
+      "skillName": "（遠距離）しゃがみ中斬り",
+      "command": "-",
+      "damage": "100",
+      "occ_F": "10",
+      "def_F": "-12",
+      "hit_F": "-9"
+    },
+    {
+      "skillNo": "12",
+      "skillName": "（遠距離）しゃがみ大斬り",
+      "command": "-",
+      "damage": "200",
+      "occ_F": "12",
+      "def_F": "-10",
+      "hit_F": "-6"
+    },
+    {
+      "skillNo": "13",
+      "skillName": "しゃがみ蹴り",
+      "command": "-",
+      "damage": "20",
+      "occ_F": "6",
+      "def_F": "-2",
+      "hit_F": "1"
+    },
+    {
+      "skillNo": "14",
+      "skillName": "ジャンプ小斬り",
+      "command": "-",
+      "damage": "40",
+      "occ_F": "7",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "15",
+      "skillName": "ジャンプ中斬り",
+      "command": "-",
+      "damage": "100",
+      "occ_F": "6",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "16",
+      "skillName": "ジャンプ大斬り",
+      "command": "-",
+      "damage": "160",
+      "occ_F": "10",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "17",
+      "skillName": "ジャンプ前大斬り",
+      "command": "-",
+      "damage": "150",
+      "occ_F": "11",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "18",
+      "skillName": "ジャンプ蹴り",
+      "command": "-",
+      "damage": "30",
+      "occ_F": "5",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "19",
+      "skillName": "6+蹴り",
+      "command": "-",
+      "damage": "40",
+      "occ_F": "5",
+      "def_F": "-20",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "20",
+      "skillName": "3+蹴り",
+      "command": "-",
+      "damage": "70",
+      "occ_F": "5",
+      "def_F": "-7",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "21",
+      "skillName": "（踏み込み）小斬り",
+      "command": "-",
+      "damage": "40",
+      "occ_F": "11",
+      "def_F": "-42",
+      "hit_F": "-3"
+    },
+    {
+      "skillNo": "22",
+      "skillName": "（踏み込み）中斬り",
+      "command": "-",
+      "damage": "110",
+      "occ_F": "27",
+      "def_F": "-29",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "23",
+      "skillName": "（踏み込み）大斬り",
+      "command": "-",
+      "damage": "150",
+      "occ_F": "11",
+      "def_F": "-14",
+      "hit_F": "-6"
+    },
+    {
+      "skillNo": "24",
+      "skillName": "（踏み込み）蹴り",
+      "command": "-",
+      "damage": "40",
+      "occ_F": "6",
+      "def_F": "-10",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "25",
+      "skillName": "不意打ち",
+      "command": "中斬り+大斬り",
+      "damage": "70",
+      "occ_F": "19",
+      "def_F": "-14",
+      "hit_F": "-1"
+    },
+    {
+      "skillNo": "26",
+      "skillName": "避け",
+      "command": "小斬り+大斬り",
+      "damage": "-",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "27",
+      "skillName": "防御崩し（前）",
+      "command": "蹴り＋大斬り",
+      "damage": "-",
+      "occ_F": "4",
+      "def_F": "-",
+      "hit_F": "20"
+    },
+    {
+      "skillNo": "28",
+      "skillName": "防御崩し（後）",
+      "command": "4+蹴り+大斬り",
+      "damage": "-",
+      "occ_F": "6",
+      "def_F": "-",
+      "hit_F": "25"
+    },
+    {
+      "skillNo": "29",
+      "skillName": "小・ささめゆき",
+      "command": "214+小",
+      "damage": "100",
+      "occ_F": "19",
+      "def_F": "-2",
+      "hit_F": "5"
+    },
+    {
+      "skillNo": "30",
+      "skillName": "中・ささめゆき",
+      "command": "214+中",
+      "damage": "120",
+      "occ_F": "19",
+      "def_F": "-21",
+      "hit_F": "-7"
+    },
+    {
+      "skillNo": "31",
+      "skillName": "大・ささめゆき",
+      "command": "214+大",
+      "damage": "140",
+      "occ_F": "22",
+      "def_F": "-50",
+      "hit_F": "-17"
+    },
+    {
+      "skillNo": "32",
+      "skillName": "非剣ささめゆき",
+      "command": "214+蹴",
+      "damage": "-",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "33",
+      "skillName": "小・ツバメ返し",
+      "command": "（空中）1236+小",
+      "damage": "140",
+      "occ_F": "5",
+      "def_F": "-34",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "34",
+      "skillName": "中・ツバメ返し",
+      "command": "（空中）1236+中",
+      "damage": "160",
+      "occ_F": "5",
+      "def_F": "-41",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "35",
+      "skillName": "大・ツバメ返し",
+      "command": "（空中）1236+大",
+      "damage": "180",
+      "occ_F": "10",
+      "def_F": "-64",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "36",
+      "skillName": "小・朧刀",
+      "command": "236+小",
+      "damage": "100",
+      "occ_F": "16",
+      "def_F": "-20",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "37",
+      "skillName": "中・朧刀",
+      "command": "236+中",
+      "damage": "20*100",
+      "occ_F": "15",
+      "def_F": "-25",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "38",
+      "skillName": "大・朧刀",
+      "command": "236+大",
+      "damage": "20*40*100",
+      "occ_F": "15",
+      "def_F": "-39",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "39",
+      "skillName": "ツバメ六連",
+      "command": "236+中+大",
+      "damage": "384",
+      "occ_F": "22",
+      "def_F": "-57",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "40",
+      "skillName": "八重霞",
+      "command": "641236+蹴+大",
+      "damage": "680",
+      "occ_F": "31",
+      "def_F": "-39",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "41",
+      "skillName": "立ち素手攻撃",
+      "command": "-",
+      "damage": "50",
+      "occ_F": "5",
+      "def_F": "-3",
+      "hit_F": "2"
+    },
+    {
+      "skillNo": "42",
+      "skillName": "しゃがみ素手攻撃",
+      "command": "-",
+      "damage": "50",
+      "occ_F": "6",
+      "def_F": "-3",
+      "hit_F": "2"
+    },
+    {
+      "skillNo": "43",
+      "skillName": "ジャンプ素手攻撃",
+      "command": "-",
+      "damage": "50",
+      "occ_F": "9",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "44",
+      "skillName": "ジャンプ",
+      "command": "-",
+      "damage": "-",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "45",
+      "skillName": "前ジャンプ",
+      "command": "-",
+      "damage": "-",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "46",
+      "skillName": "バックステップ",
+      "command": "-",
+      "damage": "-",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "47",
+      "skillName": "武器を拾う",
+      "command": "-",
+      "damage": "-",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "48",
+      "skillName": "武器を捨てる",
+      "command": "2+中+大+蹴",
+      "damage": "-",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": "-"
+    }
+  ],
+  "char06" : [
+    {
+      "skillNo": "1",
+      "skillName": "（近距離）立ち小斬り",
+      "command": "-",
+      "damage": "30",
+      "occ_F": "5",
+      "def_F": "-5",
+      "hit_F": "-2"
+    },
+    {
+      "skillNo": "2",
+      "skillName": "（近距離）立ち中斬り",
+      "command": "-",
+      "damage": "90",
+      "occ_F": "8",
+      "def_F": "-8",
+      "hit_F": "-3"
+    },
+    {
+      "skillNo": "3",
+      "skillName": "（近距離）立ち大斬り",
+      "command": "-",
+      "damage": "210",
+      "occ_F": "20",
+      "def_F": "-28",
+      "hit_F": "-3"
+    },
+    {
+      "skillNo": "4",
+      "skillName": "（遠距離）立ち小斬り",
+      "command": "-",
+      "damage": "40",
+      "occ_F": "9",
+      "def_F": "-5",
+      "hit_F": "-7"
+    },
+    {
+      "skillNo": "5",
+      "skillName": "（遠距離）立ち中斬り",
+      "command": "-",
+      "damage": "100",
+      "occ_F": "16",
+      "def_F": "-12",
+      "hit_F": "-8"
+    },
+    {
+      "skillNo": "6",
+      "skillName": "（遠距離）立ち大斬り",
+      "command": "-",
+      "damage": "180*100",
+      "occ_F": "25",
+      "def_F": "-16",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "7",
+      "skillName": "立ち蹴り",
+      "command": "-",
+      "damage": "50",
+      "occ_F": "6",
+      "def_F": "-8",
+      "hit_F": "-5"
+    },
+    {
+      "skillNo": "8",
+      "skillName": "（近距離）しゃがみ小斬り",
+      "command": "-",
+      "damage": "30",
+      "occ_F": "5",
+      "def_F": "-4",
+      "hit_F": "-1"
+    },
+    {
+      "skillNo": "9",
+      "skillName": "（近距離）しゃがみ中斬り",
+      "command": "-",
+      "damage": "70",
+      "occ_F": "7",
+      "def_F": "-1",
+      "hit_F": "4"
+    },
+    {
+      "skillNo": "10",
+      "skillName": "（遠距離）しゃがみ小斬り",
+      "command": "-",
+      "damage": "50",
+      "occ_F": "10",
+      "def_F": "-5",
+      "hit_F": "-7"
+    },
+    {
+      "skillNo": "11",
+      "skillName": "（遠距離）しゃがみ中斬り",
+      "command": "-",
+      "damage": "90",
+      "occ_F": "22",
+      "def_F": "-12",
+      "hit_F": "-9"
+    },
+    {
+      "skillNo": "12",
+      "skillName": "しゃがみ大斬り",
+      "command": "-",
+      "damage": "180",
+      "occ_F": "19",
+      "def_F": "-28",
+      "hit_F": "-5"
+    },
+    {
+      "skillNo": "13",
+      "skillName": "しゃがみ蹴り",
+      "command": "-",
+      "damage": "20",
+      "occ_F": "6",
+      "def_F": "-5",
+      "hit_F": "-2"
+    },
+    {
+      "skillNo": "14",
+      "skillName": "ジャンプ小斬り",
+      "command": "-",
+      "damage": "30",
+      "occ_F": "6",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "15",
+      "skillName": "ジャンプ中斬り",
+      "command": "-",
+      "damage": "90",
+      "occ_F": "12",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "16",
+      "skillName": "ジャンプ大斬り",
+      "command": "-",
+      "damage": "160",
+      "occ_F": "17",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "17",
+      "skillName": "ジャンプ蹴り",
+      "command": "-",
+      "damage": "30",
+      "occ_F": "12",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "18",
+      "skillName": "6+蹴り",
+      "command": "-",
+      "damage": "40",
+      "occ_F": "12",
+      "def_F": "-7",
+      "hit_F": "-4"
+    },
+    {
+      "skillNo": "19",
+      "skillName": "3+蹴り",
+      "command": "-",
+      "damage": "70",
+      "occ_F": "14",
+      "def_F": "-25",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "20",
+      "skillName": "（踏み込み）小斬り",
+      "command": "-",
+      "damage": "40",
+      "occ_F": "8",
+      "def_F": "-7",
+      "hit_F": "-4"
+    },
+    {
+      "skillNo": "21",
+      "skillName": "（踏み込み）中斬り",
+      "command": "-",
+      "damage": "100",
+      "occ_F": "23",
+      "def_F": "-24",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "22",
+      "skillName": "（踏み込み）大斬り",
+      "command": "-",
+      "damage": "160",
+      "occ_F": "17",
+      "def_F": "-24",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "23",
+      "skillName": "（踏み込み）蹴り",
+      "command": "-",
+      "damage": "70",
+      "occ_F": "11",
+      "def_F": "-27",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "24",
+      "skillName": "不意打ち",
+      "command": "中斬り+大斬り",
+      "damage": "80",
+      "occ_F": "24",
+      "def_F": "-13",
+      "hit_F": "0"
+    },
+    {
+      "skillNo": "25",
+      "skillName": "避け",
+      "command": "小斬り+大斬り",
+      "damage": "-",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "26",
+      "skillName": "防御崩し（前）",
+      "command": "蹴り＋大斬り",
+      "damage": "-",
+      "occ_F": "4",
+      "def_F": "-",
+      "hit_F": "20"
+    },
+    {
+      "skillNo": "27",
+      "skillName": "防御崩し（後）",
+      "command": "4+蹴り+大斬り",
+      "damage": "-",
+      "occ_F": "6",
+      "def_F": "-",
+      "hit_F": "25"
+    },
+    {
+      "skillNo": "28",
+      "skillName": "しゃがみ歩き",
+      "command": "1or3",
+      "damage": "-",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "29",
+      "skillName": "小・大津波",
+      "command": "236+小",
+      "damage": "60",
+      "occ_F": "18",
+      "def_F": "-16",
+      "hit_F": "-16"
+    },
+    {
+      "skillNo": "30",
+      "skillName": "中・大津波",
+      "command": "236+中",
+      "damage": "60",
+      "occ_F": "20",
+      "def_F": "-23",
+      "hit_F": "-23"
+    },
+    {
+      "skillNo": "31",
+      "skillName": "大・大津波",
+      "command": "236+大",
+      "damage": "60",
+      "occ_F": "23",
+      "def_F": "-25",
+      "hit_F": "-25"
+    },
+    {
+      "skillNo": "32",
+      "skillName": "小・火炎曲舞",
+      "command": "421+小",
+      "damage": "80",
+      "occ_F": "34",
+      "def_F": "-13",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "33",
+      "skillName": "中・火炎曲舞",
+      "command": "421+中",
+      "damage": "90",
+      "occ_F": "36",
+      "def_F": "-15",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "34",
+      "skillName": "大・火炎曲舞",
+      "command": "421+大",
+      "damage": "100",
+      "occ_F": "41",
+      "def_F": "-20",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "35",
+      "skillName": "小・跳尾獅子",
+      "command": "214+小",
+      "damage": "140",
+      "occ_F": "20",
+      "def_F": "-60",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "36",
+      "skillName": "中・跳尾獅子",
+      "command": "214+中",
+      "damage": "160",
+      "occ_F": "25",
+      "def_F": "-56",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "37",
+      "skillName": "大・跳尾獅子乱心",
+      "command": "214+大",
+      "damage": "180",
+      "occ_F": "43",
+      "def_F": "-46",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "38",
+      "skillName": "小・回転曲舞",
+      "command": "623+小",
+      "damage": "110",
+      "occ_F": "14",
+      "def_F": "-24",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "39",
+      "skillName": "中・回転曲舞",
+      "command": "623+中",
+      "damage": "130",
+      "occ_F": "14",
+      "def_F": "-51",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "40",
+      "skillName": "大・回転曲舞",
+      "command": "623+大",
+      "damage": "160",
+      "occ_F": "14",
+      "def_F": "-92",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "41",
+      "skillName": "小・血煙曲輪",
+      "command": "（空中）2+小",
+      "damage": "120",
+      "occ_F": "10",
+      "def_F": "-",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "42",
+      "skillName": "中・血煙曲輪",
+      "command": "（空中）2+中",
+      "damage": "120",
+      "occ_F": "10",
+      "def_F": "-",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "43",
+      "skillName": "大・血煙曲輪",
+      "command": "（空中）2+大",
+      "damage": "120",
+      "occ_F": "10",
+      "def_F": "-",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "44",
+      "skillName": "蝦蟇地獄",
+      "command": "qcb+K",
+      "damage": "170",
+      "occ_F": "35",
+      "def_F": "-96",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "45",
+      "skillName": "荒事狂死郎”血肉の舞”",
+      "command": "236+中+大",
+      "damage": "396",
+      "occ_F": "15",
+      "def_F": "-55",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "46",
+      "skillName": "歌舞伎十八番”回り舞台”",
+      "command": "641236+蹴+大",
+      "damage": "670",
+      "occ_F": "27",
+      "def_F": "-68",
+      "hit_F": "ダウン"
+    },
+    {
+      "skillNo": "47",
+      "skillName": "立ち素手攻撃",
+      "command": "-",
+      "damage": "50",
+      "occ_F": "8",
+      "def_F": "-8",
+      "hit_F": "-3"
+    },
+    {
+      "skillNo": "48",
+      "skillName": "しゃがみ素手攻撃",
+      "command": "-",
+      "damage": "50",
+      "occ_F": "6",
+      "def_F": "-5",
+      "hit_F": "0"
+    },
+    {
+      "skillNo": "49",
+      "skillName": "ジャンプ素手攻撃",
+      "command": "-",
+      "damage": "50",
+      "occ_F": "6",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "50",
+      "skillName": "ジャンプ",
+      "command": "-",
+      "damage": "-",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "51",
+      "skillName": "前ジャンプ",
+      "command": "-",
+      "damage": "-",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "52",
+      "skillName": "バックステップ",
+      "command": "-",
+      "damage": "-",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "53",
+      "skillName": "武器を拾う",
+      "command": "-",
+      "damage": "-",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": "-"
+    },
+    {
+      "skillNo": "54",
+      "skillName": "武器を捨てる",
+      "command": "2+中+大+蹴",
+      "damage": "-",
+      "occ_F": "-",
+      "def_F": "-",
+      "hit_F": "-"
     }
   ]
 }
